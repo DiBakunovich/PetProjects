@@ -1,6 +1,6 @@
 package by;
 
-public class Test {
+public class stage1 {
 	public static void main(String[] args) throws Exception {
 		System.out.println("hello world");
 	}

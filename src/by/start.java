@@ -4,7 +4,8 @@ public class Start {
 	public static void main(String[] args) throws Exception {
 		System.out.println("hello world вапва dhfgdhjsgdhfj");
 	}
-	sdfds gf 
+	sdfdsf
 	System.out.println("!!!");dsfds
 	nnkjn;
+	dsfdsf
 }

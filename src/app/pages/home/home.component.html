@@ -1,0 +1,160 @@
+<div class="flex home-heder">
+  <div class="flex my-container">
+    <div class="name">Эко-отель «Чайка»</div>
+    <div class="flex-row phone-icon-div">
+      <span class="cust-icon icon-phone"></span>
+      <a class="phone" itemprop="telephone" href="tel:+79031334356">+7 (909) 998-50-54</a>
+    </div>
+    <!-- <div class="button">Обратная связь</div> -->
+  </div>
+</div>
+<div class="flex-column home-photo">
+  <div class="flex photo-content">
+    <div class="flex-column my-container">
+      <div class="name">Наедине с природой</div>
+      <div class="description">
+        База отдыха расположена вдали от городской суеты и стресса. Максимальное
+        расслабление, свежий воздух и незабываемы пейзажи уже ждут вас!
+      </div>
+    </div>
+  </div>
+</div>
+<div class="flex-column home-content">
+  <section class="advantages">
+    <div class="my-container">
+      <div class="section-title">Наши преимущества</div>
+      <div class="section-description">Именно в нашей базе отдыха Вас ждут:</div>
+      <div class="flex advantages-list">
+        <div class="item">
+          <div class="item-icon cust-icon icon-bed"></div>
+          <div class="item-title">Комфортные домики со всеми удобствами</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-sauna "></div>
+          <div class="item-title">Русская баня</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-table"></div>
+          <div class="item-title">Беседки на берегу водохранилища</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-beach "></div>
+          <div class="item-title">Шезлонги и частный песчаный пляж</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-volleyball"></div>
+          <div class="item-title">Волейбольное поле на газоне</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-catamaran"></div>
+          <div class="item-title">Прогулки на катамаранах и лодках</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-spring"></div>
+          <div class="item-title">Родниковая вода</div>
+        </div>
+        <div class="item">
+          <div class="item-icon cust-icon icon-parking"></div>
+          <div class="item-title">Охраняемая парковка</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="prices">
+    <div class="my-container">
+      <div class="section-title">Цены на услуги</div>
+      <div class="section-description">Мы можем предложить Вам самые приятные цены в округе:</div>
+      <div class="prices-list flex">
+        <div class="service big">
+          <div class="image img-vip"></div>
+          <div class="title">2-этажный VIP-домик (до 8 человек)</div>
+          <div class="price">12000 ₽</div>
+          <div class="special-offer">Баня на 2 часа включена в стоимость</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-bed"></div>
+          <div class="title">Домик (до 4 человек)</div>
+          <div class="price">5000 ₽</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-sauna"></div>
+          <div class="title">Русская баня (2 часа)</div>
+          <div class="price">3000 ₽</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-table"></div>
+          <div class="title">Аренда беседки</div>
+          <div class="price">500 ₽</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-brazier"></div>
+          <div class="title">Мангальная зона</div>
+          <div class="price">от 500 ₽</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-catamaran"></div>
+          <div class="title">Прокат катамаранов и лодок</div>
+          <div class="price">500 ₽</div>
+          <div class="description"></div>
+        </div>
+        <div class="service">
+          <div class="image img-territory"></div>
+          <div class="title">Посещение территории</div>
+          <div class="price">500 ₽ с человека</div>
+          <div class="description"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery section-wrapper">
+    <div class="my-container">
+      <div class="section-title">Фотогалерея</div>
+      <div class="section-description">
+        Невероятные пейзажи который заставят вас вспоминать о проведенном
+        времени с теплом на душе.
+      </div>
+    </div>
+    <c-carousel>
+      <c-carousel-indicators></c-carousel-indicators>
+      <c-carousel-inner>
+        <c-carousel-item *ngFor="let slide of slides">
+          <img
+            [src]="slide.src"
+            alt="{{ slide.title }}"
+            class="d-block w-100 image"
+            loading="lazy" />
+        </c-carousel-item>
+      </c-carousel-inner>
+      <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+      <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+    </c-carousel>
+   </section>
+</div>
+
+<div class="flex-column contacts-content">
+  <section id="contacts" class="contacts section-wrapper">
+    <div class="my-container">
+      <div class="section-title">Контакты</div>
+      <div class="contacts-section-description flex-row">
+        <div class="flex-row contact-icon-div">
+          <span class="cust-icon icon-phone"></span>
+          <a class="phone" itemprop="telephone" href="tel:+79031334356">+7 (909) 998-50-54</a>
+        </div>
+        <div class="flex-row contact-icon-div">
+          <span class="cust-icon icon-location"></span>
+          <div> Россия, Московская область, городской округ Пушкинский, сельское поселение Ельдигинское, Эко-отель «Чайка»</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="map-container">
+    <ya-map [center]="[56.099776, 37.696071]" [zoom]="12">
+      <ya-placemark [geometry]="[56.099776, 37.696071]"></ya-placemark>
+    </ya-map>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+.cust-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-phone {
+    mask-image: url('../icons/img-phone.svg');
+    mask-position: center;
+    mask-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon-location {
+    mask-image: url('../icons/img-location.svg');
+    mask-position: center;
+    mask-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.icon-bed {
+    background: url('../icons/icon-bed.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-beach {
+    background: url('../icons/icon-beach.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-catamaran {
+    background: url('../icons/icon-catamaran.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-parking {
+    background: url('../icons/icon-parking.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-sauna {
+    background: url('../icons/icon-sauna.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-table {
+    background: url('../icons/icon-table.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-volleyball {
+    background: url('../icons/icon-volleyball.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}
+
+.icon-spring {
+    background: url('../icons/icon-spring.png') center/contain no-repeat;
+    height: 80px;
+    width: 80px;
+}

@@ -129,6 +129,10 @@
             alt="{{ slide.title }}"
             class="d-block w-100 image"
             loading="lazy" />
+            <c-carousel-caption class="d-md-block">
+              <h3>{{slide.title}}</h3>
+              <p>{{slide.subtitle}}</p>
+            </c-carousel-caption>
         </c-carousel-item>
       </c-carousel-inner>
       <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>

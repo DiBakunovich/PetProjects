@@ -368,6 +368,13 @@ section {
                 text-align: end;
             }
 
+            .description {
+                color: black;
+                font-size: 14px;
+                margin-top: 8px;
+                text-align: end;
+            }
+
             &:nth-child(3n+1) {
                 margin-right: 0px;
             }

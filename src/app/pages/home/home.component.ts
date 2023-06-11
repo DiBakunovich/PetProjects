@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit {
     };
     this.slides[4] = {
       id: 4,
-      src: './assets/photo/vip.webp',
+      src: './assets/photo/vip.jpg',
       title: 'Вип-домик',
       subtitle: 'Внешний вид домика',
     };

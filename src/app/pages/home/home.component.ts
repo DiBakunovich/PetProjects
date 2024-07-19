@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: './assets/photo/home12_0.webp',
+      src: './assets/photo/home2.jpg',
       title: 'Домик',
       subtitle: 'Внешний вид домика',
     };
@@ -32,51 +32,51 @@ export class HomeComponent implements OnInit {
     };
     this.slides[2] = {
       id: 2,
-      src: './assets/photo/home12_2.jpg',
-      title: 'Домик',
-      subtitle: 'Вид из домика',
-    };
-    this.slides[3] = {
-      id: 3,
       src: './assets/photo/home12_3.jpg',
       title: 'Домик',
       subtitle: 'Зона "кухни"',
     };
-    this.slides[4] = {
-      id: 4,
+    this.slides[3] = {
+      id: 3,
       src: './assets/photo/vip.jpg',
       title: 'Вип-домик',
       subtitle: 'Внешний вид домика',
     };
-    this.slides[5] = {
-      id: 5,
+    this.slides[4] = {
+      id: 4,
       src: './assets/photo/vip1_1.jpg',
       title: 'Вип-домик',
       subtitle: 'Вид со стороны веранды',
     };
-    this.slides[6] = {
-      id: 6,
+    this.slides[5] = {
+      id: 5,
       src: './assets/photo/vip1_2.jpg',
       title: 'Вип-домик',
       subtitle: 'Вид из домика',
     };
-    this.slides[7] = {
-      id: 7,
+    this.slides[6] = {
+      id: 6,
       src: './assets/photo/vip1_3.jpg',
       title: 'Вип-домик',
       subtitle: 'Спальня',
     };
-    this.slides[8] = {
-      id: 8,
+    this.slides[7] = {
+      id: 7,
       src: './assets/photo/vip1_4.jpg',
       title: 'Вип-домик',
       subtitle: 'Уборная',
     };
-    this.slides[9] = {
-      id: 9,
+    this.slides[8] = {
+      id: 8,
       src: './assets/photo/vip1_5.jpg',
       title: 'Вип-домик',
       subtitle: 'Веранда на 2-ом этаже',
+    };
+    this.slides[9] = {
+      id: 9,
+      src: './assets/photo/pt13.jpg',
+      title: 'Фото от посетителей',
+      subtitle: '',
     };
     this.slides[10] = {
       id: 10,
@@ -129,6 +129,30 @@ export class HomeComponent implements OnInit {
     this.slides[18] = {
       id: 18,
       src: './assets/photo/pt9.jpg',
+      title: 'Фото от посетителей',
+      subtitle: '',
+    };
+    this.slides[19] = {
+      id: 19,
+      src: './assets/photo/pt10.jpg',
+      title: 'Фото от посетителей',
+      subtitle: '',
+    };
+    this.slides[20] = {
+      id: 20,
+      src: './assets/photo/pt11.jpg',
+      title: 'Фото от посетителей',
+      subtitle: '',
+    };
+    this.slides[21] = {
+      id: 21,
+      src: './assets/photo/pt12.jpg',
+      title: 'Фото от посетителей',
+      subtitle: '',
+    };
+    this.slides[22] = {
+      id: 22,
+      src: './assets/photo/pt13.jpg',
       title: 'Фото от посетителей',
       subtitle: '',
     };

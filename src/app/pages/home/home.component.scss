@@ -116,6 +116,7 @@
             align-items: center;
     color: white;
     padding: 240px 15px 15px;
+    flex-direction: column;
 
     .my-container {
         width: 100%;
@@ -126,6 +127,13 @@
                 justify-content: center;
         z-index: 990;
         color: white;
+        &.promotion {
+            .name {
+                text-shadow: 2px 0 red, -2px 0 red, 0 2px red, 0 -2px red, 1px 3px red, -1px -1px red, 1px -1px red, -1px 1px red;
+            }
+            .description {
+            }
+        }
 
         .name {
             font-weight: 700;
@@ -326,11 +334,11 @@ section {
                 border-radius: 16px;
 
                 &.img-vip {
-                    background-image: url("../../../assets/photo/vip1_1.jpg");
+                    background-image: url("../../../assets/photo/vip1_6.jpg");
                 }
 
                 &.img-bed {
-                    background-image: url("../../../assets/photo/home2.webp");
+                    background-image: url("../../../assets/photo/home2.jpg");
                 }
 
                 &.img-sauna {
@@ -349,8 +357,15 @@ section {
                     background-image: url("../../../assets/photo/catamaran.webp");
                 }
 
+                &.img-cater {
+                    background-image: url("../../../assets/photo/cater.jpg");
+                }
+
                 &.img-territory {
                     background-image: url("../../../assets/photo/see.webp");
+                }
+                &.img-pool {
+                    background-image: url("../../../assets/photo/pool.jpg");
                 }
             }
 

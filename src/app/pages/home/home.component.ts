@@ -26,33 +26,33 @@ export class HomeComponent implements OnInit {
     };
     this.slides[1] = {
       id: 1,
-      src: './assets/photo/home12_1.jpg',
+      src: './assets/photo/home12_1_2.jpg',
       title: 'Домик',
       subtitle: 'Вид со стороны веранды',
     };
     this.slides[2] = {
       id: 2,
-      src: './assets/photo/home12_3.jpg',
+      src: './assets/photo/home12_4.jpg',
       title: 'Домик',
-      subtitle: 'Зона "кухни"',
+      subtitle: 'Вид из домика',
     };
     this.slides[3] = {
       id: 3,
-      src: './assets/photo/vip.jpg',
+      src: './assets/photo/vip2.jpg',
       title: 'Вип-домик',
       subtitle: 'Внешний вид домика',
     };
     this.slides[4] = {
       id: 4,
-      src: './assets/photo/vip1_1.jpg',
+      src: './assets/photo/vip1_1_2.jpg',
       title: 'Вип-домик',
-      subtitle: 'Вид со стороны веранды',
+      subtitle: 'Вид внутри',
     };
     this.slides[5] = {
       id: 5,
-      src: './assets/photo/vip1_2.jpg',
+      src: './assets/photo/vip1_2_2.jpg',
       title: 'Вип-домик',
-      subtitle: 'Вид из домика',
+      subtitle: 'Вид внутри',
     };
     this.slides[6] = {
       id: 6,
@@ -62,9 +62,9 @@ export class HomeComponent implements OnInit {
     };
     this.slides[7] = {
       id: 7,
-      src: './assets/photo/vip1_4.jpg',
+      src: './assets/photo/vip1_6_2.jpg',
       title: 'Вип-домик',
-      subtitle: 'Уборная',
+      subtitle: 'Обеденная зона',
     };
     this.slides[8] = {
       id: 8,
@@ -154,6 +154,24 @@ export class HomeComponent implements OnInit {
       id: 22,
       src: './assets/photo/pt13.jpg',
       title: 'Фото от посетителей',
+      subtitle: '',
+    };
+    this.slides[23] = {
+      id: 23,
+      src: './assets/photo/br1.jpg',
+      title: 'Бассейн',
+      subtitle: '',
+    };
+    this.slides[24] = {
+      id: 24,
+      src: './assets/photo/br2.jpg',
+      title: 'Бассейн',
+      subtitle: '',
+    };
+    this.slides[25] = {
+      id: 25,
+      src: './assets/photo/br3.jpg',
+      title: 'Бассейн',
       subtitle: '',
     };
   }
